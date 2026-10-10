@@ -1,0 +1,150 @@
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-textarea {
+  width: 100%;
+  min-height: 70px;
+  resize: vertical;
+  font-size: 14px;
+}
+
+.post-form-bottom {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.tags-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tag-input-group {
+  display: flex;
+  gap: 6px;
+  max-width: 260px;
+}
+
+.tag-input {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.btn-add-tag {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.tags-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #007bff;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.tag-remove {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  line-height: 1;
+}
+
+.tag-remove:hover {
+  opacity: 0.8;
+  background: none;
+}
+
+.tag-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag-suggestion {
+  background-color: #f0f0f0;
+  color: #555;
+  border: 1px solid #ddd;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tag-suggestion:hover {
+  background-color: #e2e8f0;
+  color: #333;
+  border-color: #007bff;
+}
+
+.btn-submit {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--app-accent, #28a745);
+  align-self: flex-end;
+}
+
+.btn-submit:hover {
+  filter: brightness(0.9);
+}
+
+.composer-toolbar {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.toolbar-btn {
+  width: 30px;
+  height: 28px;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #444;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.toolbar-btn:hover {
+  background-color: #e2e8f0;
+  border-color: #007bff;
+}
+
+.signature-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.signature-toggle input {
+  width: auto;
+  padding: 0;
+  cursor: pointer;
+}

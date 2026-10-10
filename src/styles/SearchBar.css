@@ -1,0 +1,110 @@
+.search-bar {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.search-bar h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-section {
+  margin-bottom: 12px;
+}
+
+.search-section label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.tag-input-group {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.tag-input {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.btn-add-tag {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.tags-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #007bff;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.tag-remove {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  line-height: 1;
+}
+
+.tag-remove:hover {
+  opacity: 0.8;
+  background: none;
+}
+
+.date-inputs {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.date-input {
+  flex: 1;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.date-separator {
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+}
+
+.btn-clear {
+  width: 100%;
+  padding: 8px;
+  margin-top: 12px;
+  font-size: 12px;
+  background-color: #6c757d;
+}
+
+.btn-clear:hover {
+  background-color: #5a6268;
+}

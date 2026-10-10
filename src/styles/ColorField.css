@@ -1,0 +1,33 @@
+.color-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.color-field-label {
+  font-size: 13px;
+  color: #333;
+}
+
+.color-field-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.color-field-hex {
+  width: 90px;
+  font-family: 'SF Mono', Menlo, monospace;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.color-field-swatch {
+  width: 30px;
+  height: 28px;
+  padding: 2px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}

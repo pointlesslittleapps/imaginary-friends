@@ -1,0 +1,26 @@
+.button-labels-settings {
+  position: relative;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.labels-description {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.button-labels-settings .form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.button-labels-settings input {
+  width: 100%;
+}

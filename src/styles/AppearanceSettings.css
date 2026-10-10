@@ -1,0 +1,155 @@
+.appearance-settings {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 420px;
+}
+
+.appearance-settings .form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.appearance-settings input[type="text"] {
+  width: 100%;
+}
+
+.avatar-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.avatar-choice {
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.avatar-choice:hover {
+  background-color: #e2e8f0;
+}
+
+.avatar-choice.selected {
+  border-color: #007bff;
+  background-color: #e7f3ff;
+}
+
+.color-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.color-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-row input[type="color"] {
+  width: 40px;
+  height: 32px;
+  padding: 2px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-row-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-label {
+  font-size: 13px;
+  color: #333;
+}
+
+.color-hex {
+  font-size: 11px;
+  color: #999;
+  font-family: monospace;
+}
+
+.field-hint {
+  font-size: 11px;
+  color: #999;
+  margin: 6px 0 0 0;
+}
+
+.avatar-upload-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar-preview {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  flex-shrink: 0;
+}
+
+.avatar-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-upload {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.btn-upload:hover {
+  background-color: #e2e8f0;
+}
+
+.btn-detect-fonts {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.btn-detect-fonts:hover {
+  background-color: #e2e8f0;
+}
+
+.appearance-settings select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.color-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
